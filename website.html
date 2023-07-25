@@ -1,0 +1,72 @@
+<html>
+    <head>
+        <body >
+            
+        <title>
+            SRM PORTAL
+        </title>
+        <link rel="icon" type="image/x-icon" href="SRM LOGO.png">
+        <link rel="stylesheet" href="images/button.css" >
+        </head>
+       
+        
+    <div class="background-images">
+        <h1 class="MYPORTAL-text">SRM PORTAL</h1> 
+        <h2 id="current-time"></h2>  <h2 id="current-Date"></h2>
+        
+        
+    <a href="https://academia.srmist.edu.in/" target="_blank">
+    <button class="acadamia-button">
+         ACADEMIA
+    </button></a>
+
+    <a href="https://sp.srmist.edu.in/" target="_blank">
+        <button class="student-button">
+            STUDENT PORTAL
+        </button></a>
+
+        <a href="https://feekart.srmist.edu.in/" target="_blank">
+            <button class="feekart-button">
+               FEEKART
+            </button></a>
+
+
+            <a href="https://dld.srmist.edu.in/#/elab" target="_blank">
+                <button class="feekart-button">
+                   E-LAB
+                </button></a>
+
+                <a href="https://srmcheck.me" target="_blank">
+                    <button class="feekart-button">
+                       SRM-CHECK
+                    </button></a>
+    
+                    <a href=" https://itkmservicedesk.srmist.edu.in/" target="_blank">
+                        <button class="feekart-button">
+                           SRM SERVICEDESK
+                        </button></a>
+                        <div class=" margin-28">
+
+                        </div>
+    </div>
+
+    <script>
+        let time = document.getElementById("current-time");
+        setInterval(() =>{
+        let d = new Date();
+        time.innerHTML = d.toLocaleTimeString();
+        },1000)
+    
+    </script>
+    <strong id="currentDate"></strong>
+    <script>
+        var today = new Date();
+        var date =today.getDate()+'/'+(today.getMonth()
+        +1)+'/'+ today.getFullYear() ;
+        document.getElementById("current-Date").innerHTML=date;
+        
+    </script>
+
+</body>
+</html>
+

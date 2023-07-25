@@ -1,0 +1,85 @@
+.acadamia-button{
+    background-color: rgb(120, 114, 114);
+    color:white;
+    height: 40;
+    width: 105;
+    border-radius: 12px;
+    cursor: pointer;
+    margin-top: 75;
+    margin-left: 45;
+}
+.acadamia-button:hover{
+    background-color:rgb(76, 74, 74);
+    color: white;
+    border-color: white;
+}
+
+.MYPORTAL-text{
+    font-size: 250%;
+    text-align: center;
+    color: white;
+    background-color: rgb(120, 114, 114);
+    
+
+
+}
+.MYPORTAL-text:hover{
+    background-color: rgb(76, 74, 74);
+    color: white;
+    border-color: white;
+}
+
+
+.student-button{
+    background-color:rgb(120, 114, 114);
+    color:white;
+    height: 40;
+    width: 105;
+    border-radius: 12px;
+    cursor: pointer;
+    margin-left: 175;
+    margin-bottom: 175;
+
+}
+.student-button:hover{
+    background-color: rgb(76, 74, 74);
+    color: white;
+    border-color: white;
+}
+.feekart-button{
+    background-color:rgb(120, 114, 114);
+    color:white;
+    height: 40;
+    width: 105;
+    border-radius: 12px;
+    cursor: pointer;
+    margin-left: 175;
+    margin-bottom: 175;
+}
+
+
+.feekart-button:hover{
+    background-color:rgb(76, 74, 74);
+    color: white;
+    border-color: white;
+   
+}
+.background-images{
+    background-image: url(" https://images03.nicepage.com/c461c07a441a5d220e8feb1a/2623c3b39a2a545eaabf1720/jtjtjtjuy-min.jpg");
+    background-size: cover;
+    height: 100vh;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
