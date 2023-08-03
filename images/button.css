@@ -71,7 +71,9 @@
 
 }
 
+@media (orientation:portrait) (min-width:600px){}
 
+@media (orientation:portrait) (max-width:600px){}
 
 
 
